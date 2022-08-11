@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("fontawesome-all.min.css");
+
+body{
+    background-color: #DCD3D0;
+    color: white;
+}
+
+#top{
+    padding-top: 8vh;
+    padding-bottom: 2rem;
+    background: url("images/overlay.png"), url("../../images/intro.jpg");
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+}
+
+#about{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    background: url("images/overlay.png"), url("../../images/one.jpg");
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
+
+#socials{
+    text-align: center;
+}
+
+
+#pat-image-top{
+    width: 200px;
+    margin: 1rem;
+}
+
+
+.icon{
+    width: 3rem;
+}
+
+.logo{
+    margin: .1rem;
+    width: 20rem;
+}
+
+.skills-list{
+    padding-left: 7vh;
+    padding-right: 7vh;
+    padding-top: 1vh;
+    font-size: x-large;
+}
+
+
+#react-django{
+    width: 500px;
+}
+
+.down-arrow{
+    padding-top: 20px;
+    width: 40px;
+}
+
+.section-padding{
+    padding-top: 27vh;
+}
+
+#projects{
+    padding-top: 7vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5vh;
+    background: url("images/overlay.png"), url("../../images/two.jpg");
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+    color: black;
+}
+
+.reach-out{
+    margin-bottom: 40vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+form{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;    
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators .active {
+    background-color: white;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+
+ flex-direction: column;
+}
+
+.btn {
+  margin-top: auto;
+}
